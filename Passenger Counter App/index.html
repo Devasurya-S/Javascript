@@ -4,10 +4,15 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>People Entered:</h1>
-        <h2 id="count-el">0</h2>
-        <button id="increment-btn" class="btn" onclick="increment()">INCREMENT</button>
-        <button class="btn" id="save-btn" onclick="save()">Save</button>
+        <div class="container">
+            <h1>People Entered:</h1>
+            <h2 id="count-el">0</h2>
+            <div class="btnHolder">
+                <button id="increment-btn" class="btn" onclick="increment()">INCREMENT</button>
+                <button class="btn btn-g" id="save-btn" onclick="save()">Save</button>
+            </div>
+            <p id="save-el">Previous entries: </p>
+        </div>
         <script src="index.js">
         </script>
     </body>

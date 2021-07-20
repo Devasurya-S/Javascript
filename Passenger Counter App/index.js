@@ -1,15 +1,20 @@
 //Pass in argument
 let countEL = document.getElementById("count-el")
+let saveEl = document.getElementById("save-el")
 
 let count = 0
 
 // listen for clicks
 function increment() {
-    count = count + 1
+    count += 1
     countEL.innerText = count
 }
 
+//on clicking save button
 function save() {
-    console.log(count)
+    let precount = count + " - " 
+    saveEl.textContent += precount
+    count = 0
+    countEL.innerText = count
 }
 

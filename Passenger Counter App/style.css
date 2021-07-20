@@ -1,3 +1,38 @@
+body
+{
+    background-color: whitesmoke;
+}
+
+.container
+{
+
+    margin: 5rem auto;
+    width: 50%;
+    padding: 3rem;
+    background-color: white;
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+}
+
+p
+{
+    text-align: center;
+}
+
+.btnHolder
+{
+    width: fit-content;
+    margin: auto;
+}
+
 .btn
 {
     border: none;
@@ -9,4 +44,9 @@
     margin-bottom: 5px;
     border-radius: 5px;
     background-color: red;
+}
+
+.btn-g
+{
+    background-color: green;
 }
