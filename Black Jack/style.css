@@ -1,0 +1,35 @@
+body
+{
+    background-image: url("images/table.jpg");
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h1
+{
+    color: goldenrod;
+    margin: 2rem auto;
+    font-size: 3rem;
+}
+
+p
+{
+    color: white;
+    margin: .5rem auto;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.startBtn
+{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    margin: 0.8rem auto;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: .4rem;
+    display: block;
+}
